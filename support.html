@@ -1,196 +1,93 @@
 <!DOCTYPE html>
+<!-- Vitarak — Support -->
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Support – Lekha Invoice</title>
-  <style>
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-      background: #f8f9fa;
-      color: #212529;
-      line-height: 1.7;
-    }
-
-    header {
-      background: #3f51b5;
-      color: #fff;
-      padding: 40px 24px 32px;
-      text-align: center;
-    }
-    header h1 { font-size: 2rem; font-weight: 700; letter-spacing: -0.5px; }
-    header p  { margin-top: 8px; opacity: 0.85; font-size: 0.95rem; }
-
-    main {
-      max-width: 780px;
-      margin: 40px auto;
-      padding: 0 24px 80px;
-    }
-
-    .meta {
-      background: #e8eaf6;
-      border-left: 4px solid #3f51b5;
-      border-radius: 4px;
-      padding: 12px 16px;
-      font-size: 0.875rem;
-      color: #555;
-      margin-bottom: 36px;
-    }
-
-    .contact {
-      background: #e8f5e9;
-      border-left: 4px solid #43a047;
-      border-radius: 4px;
-      padding: 16px 18px;
-      margin: 16px 0 8px;
-      font-size: 0.95rem;
-    }
-    .contact a { font-weight: 600; }
-
-    h2 {
-      font-size: 1.1rem;
-      font-weight: 700;
-      color: #3f51b5;
-      margin: 36px 0 10px;
-      padding-bottom: 6px;
-      border-bottom: 1px solid #e0e0e0;
-    }
-
-    h3 {
-      font-size: 0.98rem;
-      font-weight: 700;
-      color: #212529;
-      margin: 18px 0 4px;
-    }
-
-    p  { margin-bottom: 12px; font-size: 0.95rem; }
-    ul { margin: 8px 0 12px 20px; }
-    li { margin-bottom: 6px; font-size: 0.95rem; }
-
-    a { color: #3f51b5; text-decoration: none; }
-    a:hover { text-decoration: underline; }
-
-    footer {
-      text-align: center;
-      padding: 24px;
-      font-size: 0.8rem;
-      color: #888;
-      border-top: 1px solid #e0e0e0;
-    }
-  </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Support — Vitarak</title>
+<style>
+  :root{--bg:#ffffff;--fg:#1f2328;--muted:#5b6570;--accent:#e8590c;--line:#e5e7eb;--card:#f8fafc}
+  @media (prefers-color-scheme: dark){:root{--bg:#0f1216;--fg:#e6e8eb;--muted:#9aa4af;--accent:#fb923c;--line:#232a31;--card:#151a20}}
+  *{box-sizing:border-box}
+  body{margin:0;font:16px/1.65 -apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:var(--fg);background:var(--bg)}
+  .wrap{max-width:820px;margin:0 auto;padding:32px 20px 64px}
+  header.site{display:flex;align-items:center;gap:12px;border-bottom:1px solid var(--line);padding-bottom:16px;margin-bottom:8px}
+  .logo{width:40px;height:40px;border-radius:10px;background:linear-gradient(135deg,#f97316,#2563eb);display:grid;place-items:center;color:#fff;font-weight:800}
+  .brand{font-weight:700;font-size:18px}
+  h1{font-size:28px;margin:24px 0 4px}
+  h2{font-size:20px;margin:32px 0 8px}
+  h3{font-size:16px;margin:18px 0 4px}
+  .muted{color:var(--muted)}
+  a{color:var(--accent)}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 18px;margin:16px 0}
+  .grid{display:grid;gap:12px;grid-template-columns:1fr 1fr}
+  @media (max-width:560px){.grid{grid-template-columns:1fr}}
+  ul{padding-left:22px}
+  li{margin:4px 0}
+  footer.site{margin-top:48px;border-top:1px solid var(--line);padding-top:16px;color:var(--muted);font-size:14px}
+  footer.site a{margin-right:14px;white-space:nowrap}
+</style>
 </head>
 <body>
+<div class="wrap">
+  <header class="site">
+    <div class="logo">V</div>
+    <div class="brand">Vitarak</div>
+  </header>
 
-<header>
   <h1>Support</h1>
-  <p>Lekha Invoice — GST &amp; Tax Invoice Generator</p>
-</header>
+  <p class="muted">We’re here to help with Vitarak on Android, iOS, and Windows.</p>
 
-<main>
-
-  <div class="meta">
-    <strong>App:</strong> Lekha Invoice &nbsp;|&nbsp;
-    <strong>Developer:</strong> Swarjun Tech &nbsp;|&nbsp;
-    <strong>Last updated:</strong> September 25, 2026
+  <h2>Contact us</h2>
+  <div class="card">
+    <h3 style="margin-top:0">Email</h3>
+    <a href="mailto:swarjuntech@outlook.com">swarjuntech@outlook.com</a>
+    <h3>Phone</h3>
+    <a href="tel:9673974652">9673974652</a>
+    <div class="muted" style="margin-top:6px">We aim to respond as soon as possible.</div>
   </div>
 
-  <p>
-    Need help with <strong>Lekha Invoice</strong>? We're happy to assist. The
-    fastest way to reach us is by WhatsApp or email — please include your
-    device type (iPhone / iPad, Android or Windows) and a short description of
-    the issue so we can help you quickly.
-  </p>
+  <h2>Frequently asked questions</h2>
 
-  <h2>Contact Us</h2>
-  <div class="contact">
-    <strong>Email:</strong>
-    <a href="mailto:lekhainvoice@gmail.com">lekhainvoice@gmail.com</a><br />
-    <strong>WhatsApp / Phone:</strong>
-    <a href="https://wa.me/919673974652">+91&nbsp;96739&nbsp;74652</a>
-    <em>(WhatsApp preferred)</em>
-  </div>
-  <p>
-    We aim to respond within <strong>1–2 business days</strong>. Support is
-    available in English, हिंदी (Hindi) and मराठी (Marathi).
-  </p>
+  <h3>How do I place an order?</h3>
+  <p>Open Vitarak, pick a shop near your locality, add items to your cart, choose a saved delivery address (or add one),
+  choose when you want it delivered, and place the order. You can also choose <strong>Takeaway</strong> to collect the
+  order from the shop yourself. Payment is Cash on Delivery (or on pickup).</p>
 
-  <h2>Frequently Asked Questions</h2>
+  <h3>How is my order delivered?</h3>
+  <p>The shop prepares your order and its own delivery person brings it to you. You can follow the status in the
+  <strong>Orders</strong> tab, and you’ll see a message when it’s on the way. For takeaway orders, you collect from the
+  shop once it’s ready.</p>
 
-  <h3>Do I need an account or the internet to use the app?</h3>
-  <p>
-    No. Lekha Invoice is <strong>offline-first</strong>. You can create invoices,
-    manage inventory and track customers with no account and no internet
-    connection — all your data is stored on your device.
-  </p>
+  <h3>Why do some items show an estimated price?</h3>
+  <p>Items sold by weight (e.g. fresh chicken or fish) are priced after weighing. You’ll see an estimate at order time and
+  the final price once the shop weighs the item; you can decline at delivery if you don’t agree.</p>
 
-  <h3>What is Prime, and what does cloud sync do?</h3>
-  <p>
-    <strong>Prime</strong> is our optional paid plan. While it is active, your
-    invoices sync through our secure cloud so you can access them across the
-    devices on your account. Signing in alone does not upload anything — sync
-    runs only while Prime is active. Only invoices dated on or after your Prime
-    start date are synced; older invoices remain only on the device that created
-    them.
-  </p>
+  <h3>Can I set up recurring deliveries?</h3>
+  <p>Yes — tap <strong>Subscribe</strong> on an item to receive it daily, weekly, or monthly. For weekly or monthly, you can
+  pick exactly which weekdays or dates you want. Manage or pause subscriptions from <strong>Account → My subscriptions</strong>.</p>
 
-  <h3>How do I activate Prime?</h3>
-  <p>
-    To activate a Prime plan, contact us on WhatsApp (preferred) or by email
-    using the details above, and we'll help you get set up.
-  </p>
+  <h3>How do I cancel an order or get a refund?</h3>
+  <p>You can cancel before the order is dispatched where the app allows. Since orders are Cash on Delivery, any refund is
+  handled directly with the shop.</p>
 
-  <h3>What is the "master device"?</h3>
-  <p>
-    Each account has exactly one <strong>master device</strong>, which aggregates
-    invoices from your other devices and owns the shared business profile. Your
-    other devices upload their own invoices. You can change which device is the
-    master, or take over as master if the original is lost, from
-    <strong>Settings → Cloud &amp; Sync</strong>.
-  </p>
+  <h3>I run a shop — how do I join?</h3>
+  <p>Create an account as a <strong>Shop</strong>, add your shop name, category, address, and service areas, then list your
+  items. Contact us at <a href="mailto:swarjuntech@outlook.com">swarjuntech@outlook.com</a> if you need help onboarding.</p>
 
-  <h3>How do I back up or export my invoices?</h3>
-  <p>
-    Cloud sync is a convenience, not a backup service. To keep your own copy, use
-    the export option on the master device to save your invoices as an Excel or
-    PDF file, and store it somewhere safe.
-  </p>
+  <h3>How do I change the app language?</h3>
+  <p>Go to <strong>Account → Language</strong> to switch between English, मराठी, and हिंदी.</p>
 
-  <h3>I lost my device / reinstalled the app. How do I get my data back?</h3>
-  <p>
-    If Prime is active and you sign in on the master device, your synced invoices
-    will be restored from the cloud. Inventory and customer lists are stored
-    locally and are not synced, so keep your own export if you need them back.
-  </p>
+  <h3>How do I delete my account?</h3>
+  <p>See <a href="delete-account.html">Delete your account</a>.</p>
 
-  <h3>How do I delete my account and data?</h3>
-  <p>
-    You can delete your account and all of its cloud data at any time from the
-    master device — see our
-    <a href="https://swarjun.github.io/LekhaInvoice/delete-account.html">Account &amp; Data Deletion</a>
-    page. If you no longer have access to your master device, email us and we'll
-    delete it for you.
-  </p>
-
-  <h3>How do I turn off ads?</h3>
-  <p>
-    Ads are shown only to users without an active Prime plan. Activating Prime
-    removes ads.
-  </p>
-
-  <h2>More Information</h2>
-  <ul>
-    <li><a href="https://swarjun.github.io/LekhaInvoice/privacy-policy.html">Privacy Policy</a></li>
-    <li><a href="https://swarjun.github.io/LekhaInvoice/terms-of-service.html">Terms of Service</a></li>
-    <li><a href="https://swarjun.github.io/LekhaInvoice/delete-account.html">Account &amp; Data Deletion</a></li>
-  </ul>
-
-</main>
-
-<footer>
-  &copy; 2026 Swarjun Tech. All rights reserved. &nbsp;|&nbsp; Lekha Invoice
-</footer>
-
+  <footer class="site">
+    <a href="privacy-policy.html">Privacy</a>
+    <a href="terms.html">Terms</a>
+    <a href="support.html">Support</a>
+    <a href="delete-account.html">Delete account</a>
+    <div style="margin-top:8px">© 2026 Swarjun Tech. All rights reserved.</div>
+  </footer>
+</div>
 </body>
 </html>
